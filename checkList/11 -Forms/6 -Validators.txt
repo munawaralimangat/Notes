@@ -1,0 +1,9 @@
+What is validators :
+
+Validators are used to ensure that form controls have valid values. They help enforce rules, like making sure a field is not empty or a value is in a certain range.
+
+
+It is use for make sure the data entered in the form is valid and meets certain criteria.
+
+add validators to form controls when creating them.
+

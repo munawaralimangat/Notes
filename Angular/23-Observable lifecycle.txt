@@ -1,0 +1,3 @@
+Observable Lifecycle
+
+An Observable is a function that acts as a wrapper for a data stream. They support to pass messages inside your application. An observable is useless until it subscribes to it. An observer is an object which consumes the data emitted by the observable.An observable keeps receiving data values from the observable untill the observable until the observable is completed, or the observer unsubscribes from the observable. Otherwise observer can receive data vales from the observable continuesly and asynchroously. So we can perform varios operations such as updating the user interface or passing the JSON response.

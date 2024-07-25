@@ -1,0 +1,14 @@
+Environment files in angular allow us to manage settings and configuration specific to the different environments such as development , testing and production
+
+- They allow us to switch configuration based on the environment without changing the code
+
+- The default environment files are src/environment/environment.ts
+
+and
+
+src/environment/environment.prod.ts 
+
+and also we can create custom environment files 
+
+- import the environment file to the application code , the angular cli handles the replacement based on different environment
+

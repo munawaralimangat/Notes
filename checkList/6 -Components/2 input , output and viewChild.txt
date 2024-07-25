@@ -1,0 +1,11 @@
+@Input : Is a decorator that allow data to be passed from parent component to child component 
+
+It marks a property in child component as an input property, which means the parent component can bind data to this property in child component's template
+
+------------------------------------------------
+
+@Output : Is a decorator in angular used to create custom events that can be emitted from child component to notify it's parent component about something that has happened.It faciliates communicaion from child component to it's parent component.
+
+--------------------------------------------------
+
+@ViewChild : Is a decorator in angular that provides a way for a parent component to access a child component, diretive or DOM eleent and interct wih i directly i the parent component's class.

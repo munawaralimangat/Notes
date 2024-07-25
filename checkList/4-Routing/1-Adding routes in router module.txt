@@ -1,0 +1,16 @@
+Routing in angular managed by Router module, which provides a mechanism for defining navigation paths and associating them with angular components
+
+- Adding routing means defining different pages or views in your Angulaar app
+
+- Each route has specific URL and shows a different part of your app
+
+How to do this :
+
+- List all your routes in a special file called app-routing.module.ts
+
+-Each route is like a line in a map that tells Angular which component (or page) to show when someone goes to a certain URL
+
+Routes array takes al the routes as object
+
+RouterModule method can call forRoot() function and can pass routes as argument and registering in export array in ngModule decorator 
+

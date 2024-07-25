@@ -1,0 +1,3 @@
+ReactiveFormsModule : is a module in Angular that provides tools and services for building reactive forms also known as model-driven forms allows to create form controls in the component class and bind them to the template , providing more control and flexibility compared to template-driven forms
+
+Features of ReactiveFormsModule

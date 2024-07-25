@@ -1,0 +1,29 @@
+App module is the root module of an application. It provides the foundational structure of how the application is configured and bootstrapped
+
+declarations property:
+
+purpose:to declare the components ,directives and pipes belongs to this module.
+Content : An array of classes
+declarations: [
+  AppComponent,
+  HeaderComponent,
+  FooterComponent,
+  HighlightDirective,
+  TruncatePipe
+]
+
+imports:
+
+purpose: To import other Angular module that this module needs
+content : Array od angular modules
+
+imports: [
+  BrowserModule,
+  FormsModule
+]
+
+Providers:
+
+purpose: To declare service and other providers that this module should use
+
+

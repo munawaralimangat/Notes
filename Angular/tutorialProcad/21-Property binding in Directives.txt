@@ -1,0 +1,6 @@
+Property Binding in Directives: 
+
+Property binding in directives allows you to pass data from a component to a directive.This enables the directive to use or modify its host element based on  the values provided from the component.
+
+Property binding in directive allow us to pass data from an html element to a directive class. This allows a directive to modify its host element.
+

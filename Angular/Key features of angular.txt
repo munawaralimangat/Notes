@@ -1,0 +1,19 @@
+The key features of angular are :
+
+1. Components:
+	Components are the main building block of the application.A component controls a patch of the screen
+
+A component have the core properties:
+ decorator
+html
+typescript class 
+css selector
+
+2. Modules
+3. Templates
+4. Data Binding
+5. directives
+6. Services and Dependancy Injection
+7. Routing
+8. Tooling
+9. TypeScript

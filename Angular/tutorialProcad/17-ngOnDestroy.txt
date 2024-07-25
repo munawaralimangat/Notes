@@ -1,0 +1,3 @@
+ngOnDestroy :
+
+ngOnDestroy is a lifecycle hook in angular that is called just before a component or directive is destroyed. This hook is useful for performing any necessary cleanup or teardown tasks when a compoenent is about to be removed.

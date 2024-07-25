@@ -1,0 +1,16 @@
+- Create a typescript class and export it 
+- Decorate the class with @component decorator
+
+-Declare the component in the main module file
+
+
+-root component is app component
+
+-if we want to add another component the inside the app folder we create another folder that name the component name.
+
+- import component decorator from angular/core library 
+
+define decorator with metadata object that includes the selector  that specifies the elemnt tag or html ttribute or css selector of the view part component component.html file and tepmplateUrl or template that tells the view html component path or html in template , and styleUrls for stylesheet
+(every component must have a view template
+
+

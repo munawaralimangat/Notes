@@ -1,0 +1,9 @@
+ngAfterContentChecked is a lifecycle hook is called during every change detection cycle, after angular has finished initializing and checking projected content.
+
+whenever the projected content change, ngAfterContentChecked
+
+Angular also updates the properties decorated with @contentChild & @contentChildren decorator before raising ngAfterContentChecked hook
+
+Angular raises this hook even if there is no projected content in the component.
+
+The ngAfterContentInit hook is called after the projected content is initialised. ngAfterContentChecked is called whenever the projected content is initiazed. ngAfterContentChecked is called whenever the projected content is initialized, checked and updated

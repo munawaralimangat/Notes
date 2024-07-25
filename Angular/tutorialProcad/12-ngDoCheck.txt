@@ -1,0 +1,11 @@
+ngDoCheck :
+
+Angular invokes ngDoCheck hook during every change detection cycle. This hook is invoked even if there is no change in input bound properties.
+
+for example : The ngDoCheck lifecycle hook will run if you clicked a button on webpage, which does not do anything. But still its an event so the chnage detection cycle will run and execute ngDoCheck hook.
+
+angular invokes ngDoCheck lifecycle hook after ngOnChanges and ngOnInit hook
+
+we can use this hook to implement custom change detection , whenever angular fails to detect change made to input bound properies.
+
+The ngDoCheck hook is also a great place to use,when you want to execute some code on every change detection cycle.

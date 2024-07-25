@@ -1,0 +1,9 @@
+- Angular.json is a configuration file
+- It defines the structure and settings for the angular application
+-Guiding the angular cli on how to build , serve and manage the project.
+
+$schema in angular
+
+The $schema property is like a set of instructions that helps the editor understand how the angular.json file should be written 
+
+angular json defines how the project shuld be structured, how various cli commands should behave

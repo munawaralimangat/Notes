@@ -1,0 +1,15 @@
+-Typescript is a programming language that is similar to javascript
+
+-typescript is an opensource programming language developed by Microsoft
+
+-Typescript is a super set of javascript
+
+- typescript have additional features that currently not exist in javascript versions, that not supporting by most browsers.
+
+-typescript is a strogly typed , javascfript is dynamically typed
+
+-typescript has some object oriented features that currently not available in javascript such as interface
+
+- with typescript we can catch run time errors at compile time
+
+

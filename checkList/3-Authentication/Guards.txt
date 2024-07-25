@@ -1,0 +1,23 @@
+What is guards 
+
+In angular guards are special classes used to control and manage access to different parts of an application. They decide a user can navigate to a particular route or perform certain action based on specific condition , like checking if the user is logged in or has the necessary permissions.
+
+There are five types of guards :
+
+1 CanActive :
+	This guard decides weather a route can be activated. It is commonly used for implementing authentication checks before allowing access to route
+
+2  CanActiveChild :
+	Similier to CanActive , but applies to child routes of a route
+
+3 CanDeactive :
+	This guard decides if a route can be deactivate ,It prevent users from leaving a route with unsaved changes
+
+4 CanLoad :
+	This guard prevents async-loaded modules from loading until certain conditions are met , typically used for lazy-loaded routes
+
+5 Resolve :
+	This guard performs route data retrival before route activation , ensuring that data is available before the route is displayed
+
+
+

@@ -1,0 +1,12 @@
+The view template of a component is a form of HTML that tells Angular how to render a component
+
+we can use template property or templateUrl property.
+
+its always a good practive to use templateUrl property,
+
+Disadvantages of template property are:
+
+1 It mixes typescript and html code which makes less maintainable
+2 Since html is written as a string , there will be error we will not know during compile time
+3 If the number of lines of HTML code is huge , It will be messy & not maintainable
+

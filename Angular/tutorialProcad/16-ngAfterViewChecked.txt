@@ -1,0 +1,4 @@
+ngAfterViewChecked :
+
+ngAfterViewChecked  is called after angular has checked the component's view and its child views. This hook is particularly useful for tasks that need to occur after the view has been updated, including scenarios where you need to perform additionaloperations based on the view's state or changes.
+

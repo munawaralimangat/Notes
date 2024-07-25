@@ -1,0 +1,5 @@
+What is HostBinding ?
+
+HostBinding is a decorator that allows to bind properties or attributes of the host element (the element to which directive or component is applied) to properties in the directive or component class. 
+
+purpose : It enables you to bind a property or attribute of the host element to a property in directive or compoenent class.

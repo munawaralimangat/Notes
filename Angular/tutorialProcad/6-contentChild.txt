@@ -1,0 +1,7 @@
+What is contentChild ?
+
+In angular contentChild is a decorator used to query the first element or the directive matching the selector from the content children of a component or directive.
+
+How contentChild works ?
+
+when you use contentChild, angular looks for the first occurance of the specified element or directive In the content.

@@ -1,0 +1,16 @@
+FormsModule : Is a module in Angular that provides tools for building and managing template driven forms. It is essential for enabling Angular's form directives, which is simplify the creation and handling of forms in templates.
+
+Features of FormsModule :
+
++ ngModel Directives : Binds form input to properties on the component
+
++ ngForm Directive : Automatically creates a form group to track the state of form controls
+
++ Form Validation: Provides support for built in validators and custom validations
+
+import the FormsModule in imports array of the root module
+
+then create a form with ngForm directive
+
+#nameForm ="ngForm" with (ngSubmit)="onSubmit(userForm)"
+

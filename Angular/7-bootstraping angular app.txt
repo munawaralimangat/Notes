@@ -1,0 +1,80 @@
+- Bootstraping is the process of initializing or loading the application
+
+- index.html is the starting point of the application
+
+-when running ng serve it does not save the application in dist, instead it will save the application in memory and start development server, and also watches over the project. If we make any change the angular cli will start re compile the file
+
+-Angular CLI uses webpack to traverse through our Angular app and it bundles JS and other files in to one or more bundles.  
+
+- Then angular CLI also inejects the bundled javascript & css files in the index.html
+
+
+-----------------------------------------------
+
+-When the index.html file is loaded angular core libraries and third party libraries are also loaded by that time
+
+-Now angular needs to locate the main entry point, for that it will search for the angular.json file
+
+- in angular.json file there will be options > main that will assigned a path to the main.ts file which is the main entry point in our application
+
+-from here angular will come to know that which typescript file is the main entry point of the the application
+
+- main.ts file is the main entry file of the application, it is the first file that get executed when angular app is loaded
+
+-------------------------------------------------------------
+
+in main.ts file
+
+** platformBrowserDynamic is importing from '@angular/platform-browser-dynamic' library
+
+-this is the module responsible for loading the angular application inside the browser
+
+-if we are using for mobile app it will be change as platformNativeScriptDynamic from 'nativeScript-angular/platform'
+
+** AppModule is im porting from app directory app.module
+
+- It is the root module for our application
+- The angular application are organized as modules, every application build in angular must have at least one module
+
+platformBrowserDynamic().bootstrapModule(AppModule).catch(err => console.error(err))
+
+this function will load the root module(app module) 
+
+from the main.ts file the appModule will be loaded.
+
+-------------------------------------------------------------
+
+app.module.ts file
+
+In angular the appModule is the root module of an angular application. Its where you define the structure.component
+
+in app module file a class will be exported
+
+for the class we are passing a meta data as decorator @NgModule
+
+** inside the declaratives we define the components,directives, pipes which belongs to this angular module. 
+
+** inside the imports array we need to list all the external modules require for the angular application.
+
+** Inside the providers array we register all the services of the angular application
+
+** inside bootstrap array  we specify the component that loads when the app module is loaded
+
+whatever component that we specify on the bootstrap array , that will be loaded when the app module is load 
+
+---------------------------------------------------------
+
+app.componet.ts
+
+(app component)
+
+-It is the main component in angular application.
+- It is decorated with @component, passing a meta data object
+
+**selector : this property is assigned with app-root. the selector property can used as the html element,html attribute or html class, so it can render some html 
+ - Every component will have a view component 
+
+**templateUrl : this property will show the html component that (view component)
+ **template : here also we can specify the html
+
+whereever we use the selector there will be the template or templateUrl property will be rendered. 

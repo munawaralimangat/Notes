@@ -1,0 +1,16 @@
+Root module : AppModule
+
+App module serves as the root module of an angular application
+
+It combines all the component, directives and pipes together to run an angular application
+
+it defines the declaration of the component, directive and pipes
+
+it define the other modules in import properties
+
+Providers array contain the services or dependencies required by the application
+
+Bootstrap array defines the root component
+
+It serves as the entry point of the application 
+

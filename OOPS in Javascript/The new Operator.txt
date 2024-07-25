@@ -1,0 +1,22 @@
+A 'new' operator does three things while creating  an object using function constructor
+
+1 The 'new' operator first creates an empty object
+
+let person = new Person()
+
+is same as 
+
+let person = {}
+
+2 It also makes sure that the 'this' variable in function constructor point to the newly created empty object
+
+let person = new Person('munawar','28')
+
+it will be like
+
+let person = {
+ name: Munawar,
+age:28
+}
+
+3 Finally , it returns the object from function constructor

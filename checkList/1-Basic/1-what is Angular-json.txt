@@ -1,0 +1,10 @@
+- Angular.json is a configuration file, that defines how an angular application should behave to the cli commands and it defines the structure of an angular application
+
+-It provides a central place to configure the cli's behaviour
+
+-It is customizable 
+
+package.json have the metadata, scripts, dependencies, dev dependencies details so on, and in angular.json it defines how the application should behave to the angular cli for testing, building and production environment . It provides a central place to configure the cli behaviour
+
+package.json holds meta data relevant to the project 
+angular.json provides work space wide and project specific configurations for build, development tool provided by angular CLI

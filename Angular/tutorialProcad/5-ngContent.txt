@@ -1,0 +1,5 @@
+What is ngContent ?
+
+ngContent is a directive in Angular used for content projection, a pattern where you pass content from a parent component to child component. This allow us to build reusable components that can wrap and display content provided by other components.
+
+When we use ngContent directive inside a component, it acts as a placeholder for the content that will be projected into the component from its parent. The parent component provides the content within the component's tags.

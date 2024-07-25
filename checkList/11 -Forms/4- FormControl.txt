@@ -1,0 +1,7 @@
+What is FormControl:
+
+FormControl represents the single input field in a form. It keeps track of the value and the validation status of that input field.
+
+It helps to manage the value and validation of individual form fields 
+
+Create in instance of FormControl and bind it to an input field

@@ -1,0 +1,10 @@
+What is re usable components:
+
+  Re usable components allow developers to create modular and maintainable code.
+  
+  By creating components that can be re used throughout an application, developers can save time and effort, and ensure that their code is consistent and easy to update
+
+Creating re usable component is an essential part of building scalable and maintainable applications. In angular , building reusable component is a straightforward process that allow developers to minimize duplication and maximise code reuse.
+
+
+

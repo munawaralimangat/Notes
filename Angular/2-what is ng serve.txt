@@ -1,0 +1,17 @@
+ng serve is the cli command that compile the angular project and run on development server by default 4200 local host ,
+
+it will create some bundles and inject in to the index.html file inside src folder of the project
+
+
+-ng serve command in Angular is used to build and serve the application locally, providing a development server with live reload capabilities
+
+-build the application
+ It uses webpack to bundle the application
+
+-Start development server
+
+-Live reload
+ when save changes, it watches and recompile the app and refresh the browser with latest changes
+
+- development mode
+ It includes additional debugging features and does not apply production optimizations

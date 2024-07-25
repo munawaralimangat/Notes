@@ -1,0 +1,7 @@
+The asset folder in angular is the folder where we store static files such as images, fonts, json data that are used by the application.
+
+when we build the angular application, the content of the static files will be stored in to the dist folder maintain the same structure.
+
+
+--------------------------------------------------------
+Other folders are storing static files that aren't directly shown in your app or need special treatment, it will not copy the files to the dist folder when we build

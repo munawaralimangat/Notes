@@ -1,0 +1,10 @@
+What is Observable Pattern:
+
+Observable pattern is a design pattern how Observable object works and subscribe to its observers, An observable object can keep emit data and can subscribe to it's sate change. This pattern is called observable pattern
+
+
+correct explaination:
+
+This design pattern involves an observable object that maintains a list of Observers. The observable automatically notifies all its Observers about any state changes, allowing them to react accordingly.
+
+In reactive programming , an Observable is an object that represents a stream of data or events.

@@ -1,0 +1,6 @@
+Observable Pattern : A design pattern where a subject maintains a list of observers and notifies them of changes.
+
+Observable Lifecycle: The stages an Observable goes through, including creation, subscription emission of data, completion , and unsubscription. It describes the process and management of data flow in a reactive system.
+
+In essence: The observable pattern is about the overall design from notifying observes, while the Observable lifecycle details the specific stages an Observable undergoes I managing and delivering data.
+

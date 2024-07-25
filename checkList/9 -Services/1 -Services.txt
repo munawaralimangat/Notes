@@ -1,0 +1,19 @@
+Services are used in angular for share data and logic across the components.
+
+They help the code reusable and modular
+
+
+Adding a service 
+
+ng generate service <service name>
+
+ implement the logic of service
+
+import in the components and can access
+
+Managing shared data using services in angular involves creating service classes to handle data operation and state management.
+
+By leveraging services and observables, angular applications can efficiently synchrononize and share data across multiple components.
+
+
+

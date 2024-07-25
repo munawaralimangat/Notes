@@ -1,0 +1,11 @@
+Angular material is a UI librarary component developed by Google in 2014. 
+
+Features of Angular Material :
+
+- It is an I-built responsive design
+- Angular material has standard CSS
+- Includes new versions of common user interface controls such as button, check boxes , and text fields which are adapted to follow material design concepts.
+
+- Incldes enhanced and specialozed features like cards, toolbar , speed dial , side nav , swipe and so on
+
+-

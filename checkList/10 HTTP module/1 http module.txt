@@ -1,0 +1,17 @@
+HTTP module provides a way to communicate with API , allowing angular to fetch data from server, send data to server and handle responses asynchronously.
+
+Creating function to call API :
+
+In angular create functions in services to interact with APIs. These functions use Angular's http module to send requests and receive response from a server.
+
+Managing API request and responses:
+
+HTTP module provides some methods like GET ,POST,DELETE,PUT methods handle communication with server and return Observable objects that can subscribe to in components
+
+Handling errors in API calls:
+
+API calls can sometimes fail due to network issues,server errors or invalid data. Angular provides mechanism to handle errors gracefully using error handling operators like catchError from rxjs. This ensure that the application can recover from errors and provide appropriate feedback to users.
+
+HTTP methods are the different types of methods that can perform different actions on APi
+
+

@@ -1,0 +1,7 @@
+ngOnInit 
+
+Angular raises ngOnInit hook after it creates the component and update its input properties. This hook is raised after ngOnChanges.
+
+The ngOnInit hook is fired only once that is during the first change detection cycle. After that, if the input property changes, this hook does not gets called.
+
+ By the time ngOnInit gets called, none of the child components or projected contents or view re available at this point.Hence any property decorated with @viewChild , @viewChildren , @contentChild or @contentChildren will not be available to use.

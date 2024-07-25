@@ -1,0 +1,21 @@
+Directives are function that executes when found in the DOM by the angular compiler to extend the power of the HTML with new syntax.
+
+Directives have a name and can be pre defined or custom-defined so they can be called anything.
+
+Directives in General : Directives in angular are markers on a DOM element(such as an attribute , element name, or CSS class) that tells Angular's html compiler (ngCompiler) to attach a specified behavior to that DOM element or even transform it and its children
+
+Three types of directives are :
+
+1 Component Directives :
+
+  In Angular a component is actually a type of directive. More specifically , components are subset of directives with a particular structure and purpose here is the breakdown.
+
+2 Attribute Directive :
+
+ An attribute directive is a type of directive that you apply to elements as attributes in HTML. It allows you to dynamically change the appearance or behavior of those elements bases on conditions or events.  
+for example : We can use a an attribute directive to change the background color of an element when the user hover over it , or to toggle visibily based on certain conditions.
+
+3  Structural Directive :
+
+ Structural directives are a type of directive in angular that alters the structure of the DOM by adding , removing or manipulating elements based on conditions. Unlike attribute directives , which change the actual layout by adding or removing elemnts from the DOM tree.
+

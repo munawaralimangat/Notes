@@ -1,0 +1,15 @@
+ngAfterContentInit :
+
+ngAfterviewInit is a lifecycle hook , that is called after the components projected content has been fully initialized
+
+angular will call this hook even after a projected content is not there.
+
+when it is called ?
+
+ngAfterContentInit is called after the default change detector has checked the content and set the properties of the component or directive for the first time
+
+useage: It is commonly used when you need to perform some initialisation logic that depends on the projected content
+
+Angular updates the properties decorated with @contentChild & @ContentChildren decorator just before this hook is raised
+
+This lifecycle hook gets called only once, during the first change detection cycle.After that, if the projected content changes, this lifecycle hook will not get called

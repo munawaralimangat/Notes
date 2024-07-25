@@ -1,0 +1,7 @@
+Bootsrapping refers to the process of initialisation and running of the application
+
+- loading the root module of the application
+
+-app.module.ts file will be the root module
+
+- then compiling and launching the component tree

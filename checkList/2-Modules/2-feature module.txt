@@ -1,0 +1,12 @@
+A module is a self contained unit of code that performs a specific task or providesa set of related functions
+
+Feature module are the custom modules that bundles together components. services, directives and other resources needed to implement a specific feature or part of the application. 
+
+It helps the code organized, promotes re usability and makes it easier to manage 
+-----------------------------------------------------------
+A feature module in angular is like a container that holds together all the pieces needed for a specific part or feature of the application.
+
+-components,
+services
+
+

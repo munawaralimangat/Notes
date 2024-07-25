@@ -1,0 +1,47 @@
+Angular framework is based on four core concepts
+
+Components
+Template with Data binding and Directives
+Modules
+Services and dependency injection
+
+                   --------------------------
+Components:
+
+Components are the main building block of an angular application
+
+It is a piece of user interface that 
+
+It is basically a javascript / typescript class along with html template and associated name
+
+It encapsulate a piece of use interface along with its related logic
+
+-------------------------------
+
+Template :
+
+Template is a super set of html, that have the additional functonalites to bind the component data in to the html and dynamically generate HTML DOM elements
+
+The core concept of template can be categorized in to two
+
+1 Data binding(used to bind the data from the component)
+
+2 Directives(used to include logic)
+
+----------------------------------------
+
+Modules :
+
+Angular module is a collection of features /functionalities
+
+It groups multiple components and services in a single context
+
+An angular app can have any number of module, but only one module can be set as root module, which will be bootstrap the application and then call other module as and when necessary
+
+---------------------------------------
+
+Services:
+
+Services are plain js/ typescript class that providing a vety specific functionality
+
+The purpose of service is reusability. Instead of writing in a single component , it will spereate the logic and can be re used with other component.

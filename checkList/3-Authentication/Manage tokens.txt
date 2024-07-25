@@ -1,0 +1,29 @@
+Managing tokens in angular application involves handling authentication tokens securely to allow users to access protected resourses like api or specific parts of the application.
+
+Understand Authentication tokens
+
+Authentication tokens are like digital keys that prove a user's identity.They typically issued after a user logged in , and are used to authenticate subsequent requests to the server.
+
+There are different types of token used in authentication , but most common are :
+
+1- Access token : Grants access to specific resources or API's for limited period
+
+2- Refresh token : Used to obtain a new access token without requiring the user to log in again. It has longer life span than access tokens 
+
+Implementation :
+
+Angular provides tools like HttpClient for making HTTP requests and interceptors for managing token automatically.
+
+1- User logs in : credentials sent securely to server.
+2- Server responds: Provide access and refresh token
+3- Token stored: Store securely In local storage(any)
+4- Subsequent requests: Attach access token in http headers
+5- token expiration : Refresh token used to get new access token 
+6- logging out : Token cleared from storage
+
+
+
+
+
+
+

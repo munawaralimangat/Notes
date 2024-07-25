@@ -1,0 +1,34 @@
+Directives are the classes that allow us to manipulate DOM
+
+<div changeToGren> Some Content </div>
+
+@directive({
+   selector: ['changeToGreen']
+  })
+
+export class ChangeToGreen { }
+
+a directive is an instruction to the DOM
+we use directivs to manipulate the dom
+by using directive we tell angular how to dom element should behave and look like
+
+there are three types of directives;
+
+1 Component Directive:
+
+	Component directive is the angular component. 	Its 	a directive with a template
+
+2 Attribute Directive:
+
+	Attribute directive is used to change the 	appearance or behavior of a DOM element
+	
+	+ ngStyle
+	+ ngClass
+
+3 Structural Directive:
+
+	Structural directive is used to add or remove a 	DOM element on the web page 
+	
+	+ ngIf
+	+ ngFor
+	+ ngSwitch

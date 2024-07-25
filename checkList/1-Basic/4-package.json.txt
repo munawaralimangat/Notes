@@ -1,0 +1,3 @@
+Package.json is a json object file that contains the meta data of the project, that includes the dependencies, dev dependencies and scripts for running the application 
+
+It is essential for managing a project and its dependencies with npm 

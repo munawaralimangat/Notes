@@ -1,0 +1,19 @@
+- Route protection is about controlling who can see certain pages in the app
+
+- For example I can protect a profile page that only logged in users can see it 
+
+How to do that :
+
+Create a Guard using anglar CLI 
+ 
+ ng generate guard auth 
+
+define guard logic in that file
+
+Guards are like security check points before someone can enter a page
+
+apply the guard to a route to protect
+
+
+
+

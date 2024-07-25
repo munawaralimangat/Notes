@@ -1,0 +1,26 @@
+Local storage and Session storage:
+
+-Both are webstorage for persisit the data 
+-both saves data as key value pairs
+-local storage will keep data even if the -browser closes, session storage data will lose the tab closes
+
+
+Local storage and session storage are the mechanism available via the webstorage api to persistently store the data in user's browser
+
+local storage ;
+ persistence: The data will stored even after the browser closed
+
+scope: The data available to all the browser tabs
+
+storage limit: 5 to 10 mb
+
+use case of local storage : Use for data that need to store for long time (user perefernces)
+
+session storage:
+ Persistance: Data stored until the tab or window closes
+
+scope: available to the particular tab only
+
+storage limit: 5 to 10 mb
+
+The use case of session storage is for use of temporary data that only for during current session of the user

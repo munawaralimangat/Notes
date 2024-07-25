@@ -1,0 +1,3 @@
+what are pipes
+
+Pipes are refered as filters, It helps to transform data and manage data within interpolation , denotation {{ | }}. It accepts data, arrays , integers and strings as inputs 

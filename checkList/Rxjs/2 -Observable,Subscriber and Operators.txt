@@ -1,0 +1,11 @@
+Observable:
+Observable is a data stream , which means it is a sequence of events or data items that can arrive asynchronously over time.
+
+
+Subscriber :
+Subscriber will listen to the observable for data changes.
+
+It will contain the latest value always since it has subscribed
+
+Operators:
+Operators are functions that enable us to compose , transform and manipulate data streams(observables) in a declarative and efficient way.

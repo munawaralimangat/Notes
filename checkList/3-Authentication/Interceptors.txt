@@ -1,0 +1,10 @@
+What is interceptors :
+
+An interceptor is a service that can modify http requests and responses. Its useful for tasks like logging , setting headers, handling errors or managing tokens
+
+The angular HTTP interceptors sit between our application and the backend. When the application make a request, the interceptor catches the request(HttpRequest) before it is sent to the backend.
+
+by intercepting request we get access to request headers and body. This enable us to transform the request before sending it to the server
+
+
+

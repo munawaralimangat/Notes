@@ -1,0 +1,2 @@
+The viewChild decorator is used to query and get reference of the DOM element in the component. It returns the first matching element.
+

@@ -1,0 +1,8 @@
+Index.html is the html file that renders to the browser when an angular application loads.
+
+It is the main entry file of the application 
+
+it get injected with webpack runtime.js, polyfil.js and main.js during the build process
+
+
+

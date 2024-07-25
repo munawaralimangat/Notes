@@ -1,0 +1,4 @@
+Typography in angular refers to the use of pre defined font styles provided by Angular Material to ensure consistant and professional text presentation across the application.It includes pre defined styles for heading , body text, captions and buttons which follow the material design guidelines.
+
+\
+

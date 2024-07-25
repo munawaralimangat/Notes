@@ -1,0 +1,11 @@
+- Router links are like clickable button or text links that users click to go to different pages in the app.
+
+- They help users navigate around your app without loading a new page from the server.
+
+How to do it:
+
+- Add router links in html code using special directive routerLink
+
+- Each link points to a specific URL path defined in the routes
+
+<a routerLink="/" routerLinkActive="active">Home</a>

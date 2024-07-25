@@ -1,0 +1,4 @@
+Decorator is a feature of typescript that allow you to modify the behaviour of a class or its members. They are prefixed with the @ symbol
+
+
+

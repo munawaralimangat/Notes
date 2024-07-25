@@ -1,0 +1,10 @@
+When a constructor is called , by that time , non of its input properties are updated and available to use.
+
+When a constructor is called, by that time, the child components of that component are not yet constructed
+
+Projected compoennts are also not available by the time the contructor of a compoenent called.
+
+Once the component is removed from the DOM we can say component is destroyed.
+
+When a component is instanciated, before the component is destroyed it goes through different phases in the creation process.
+

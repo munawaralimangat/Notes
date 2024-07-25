@@ -1,0 +1,4 @@
+Content Children 
+
+Content children decorator is used to access a reference of all the DOM elements, components or directives from the projected content in the child component class based on a given selector.
+

@@ -1,0 +1,9 @@
+What is HostListener ?
+
+HostListener is a decorator in Angular that allows you to listen for and handle events on the host element of a directive or a component.
+
+Purpose : It allows you to react to DOM events such as 'click', 'mouseenter','keydown' directly within your directive or component class'
+
+
+
+

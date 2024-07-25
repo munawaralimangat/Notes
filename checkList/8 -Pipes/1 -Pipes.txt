@@ -1,0 +1,8 @@
+Pipes in Angular are a feature that allows you to transform data directly in the template. They are a way to display data in a user-friendly format.
+
+
+create a pipe file ,
+
+declare in the module declaration array
+
+us in the view template 

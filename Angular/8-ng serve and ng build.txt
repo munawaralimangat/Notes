@@ -1,0 +1,31 @@
+
+
+ng serve
+
+purpose: Serving the application locally during development
+
+process: 
+
+* compile the application
+* serves the application from memory
+* starts development server that host application locally
+* watches for changes, automatically recompile
+
+ Outcome:
+
+ Provides a live development enivironment with automatic browser reloading 
+-------------------------------------------------
+
+ng build 
+
+purpose: building application for development deployment
+
+process:
+
+* compliles the application
+* bundles the application 
+* optimize output files for production, including minification and other optimization
+
+outcome:
+
+producues static HTML js CSS files assets ready for deployment to a web server or static file host

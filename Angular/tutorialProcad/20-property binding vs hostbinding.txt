@@ -1,0 +1,9 @@
+@PropertyBinding vs @HostBinding
+
+@PropertyBinding : is a one-way binding mechanism where data flows from the component's class to the HTML element. It typically used to bind data to HTML element properties.
+
+@HostBinding : is a decorator that allows you to bind a property of the host element (the element that the directive is applied to) to a property in the directive or component class.
+
+Direct event binding in Components : Use template event binding like (event)="method()" to handle events directly in a component.
+
+@HostListener in Directives : Use @HostListener when you need to handle events within a directive , which encapsulate event handling logic and makes it reusable across different elements.

@@ -1,0 +1,34 @@
++ What is object oriented programming
+
+-Object oriented programming is a programming paradigm(how we write and organize code) based on objects
+
+- In oops we represent real world entities as an object
+
+- An object can have data and behaviour
+
+- The properties are called the data of an object and the methods are called the behaviour of an object
+
+- We use object to pack the data and behaviour of a real world entity all in one block.
+
++ How object oriented programming works general
+
+- In general OOP woks by defining classes that serve as blue prints for creating objects.
+
++What are the four pillers of object oriented programming
+There are four pillers of Object Oriented Programming
+
+1 Inheritance -
+
+ -Inheritance is a mechanism that allows us to create new classes based on existing class
+-With inheritance we can re use the code without repeating a code
+-It is the first piller of object oriented programming
+
+2 Encapsulation
+ -Encapsulation is a process that hiding data from outside world
+
+- private keyword is make a property hide from the outside world
+
+3 Abstraction
+-Abstraction is a way of hiding implementation details and showing only the functionality to user
+4 Polymorphism
+- Polymorphism means different forms. In oops we can write methods with same name but different implementations

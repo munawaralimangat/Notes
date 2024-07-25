@@ -1,0 +1,3 @@
+What is ngContainer ?
+
+ngContainer is an angular element, that is used as grouping element in Angular templates.It does not render any real DOM element, nor does it produce any output. Instead, it serves as a container for grouping structural directives like ngIf, ngFor and ngSwitch without introducing any additional element in the DOM

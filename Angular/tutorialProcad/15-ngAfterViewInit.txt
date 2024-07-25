@@ -1,0 +1,6 @@
+ngAfterVIewInit :
+
+ngAfterViewInit is a lifecycle hook that is called after angular has fully initialized the component's view. This includes the initialization of any child components and the rendering of their DOM. 
+
+The ngAfterViewInit is called after the components view template and all its child components view templates are fully initialized.
+

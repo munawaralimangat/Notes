@@ -1,0 +1,11 @@
+Adding navigation to feature module components in angular involves integrating routes and creatig router links specifically for components that belong to feature modules. 
+
+Feature modules : Organize related components and services into cohencive uits
+
+Routing in feature module : Define routes specific to feature module components in the module's routing module
+
+-----------------------------------------------------------
+
+A feature module in angular is a module that groups related components, directives, pipes and service together
+
+

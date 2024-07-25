@@ -1,0 +1,4 @@
+What is template reference :
+
+A template refernce variable is a variable , which stores a refernce to a DOM element, component or directive which is used.
+

@@ -1,0 +1,4 @@
+Router outlets are placeholders in the app's html where angular diplays different pages or components bases on current URL
+
+Place <router-outlet></router-outlet> in the components html where we want angular to render the content for the current route
+

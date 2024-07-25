@@ -1,0 +1,3 @@
+In angular services are for handling business logics and data operations, such as communicating with backend API.
+
+a service is a class with specific purpose, and re usable code that can be injected in to components, or other services in the application

@@ -1,0 +1,8 @@
+angular is a component based javascript framework for building client side applications
+
+Component is the main building block of an angular
+
+- component is a piece of user interface
+- every angular application has atleast one component
+-an angular application is essentially a tree of components
+-combining all these components together makes an angular ui

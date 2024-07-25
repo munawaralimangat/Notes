@@ -1,0 +1,22 @@
+Imports, declaration, exports and providers are the properties in ngModule decorator
+
+They used to configure module's meta data 
+
+helps to organise and manage the dependencies with in an application
+
+Imports
+
+Imports array used to import other modules whose exported classes are needed by the component, directives and pipes in the module
+
+Declaration
+
+The declaration array is used to declare component, directives and pipes that belong to this module , Each component , directive and pipes should declared exactly in a module
+
+Exports
+
+Exports array is used to export component, directives and pipes from one module to another module so they can used in other module
+
+Providers
+
+Providers array is used to register services that the module require. The services are created by dependency injection that made available to the entire app or a specific module
+

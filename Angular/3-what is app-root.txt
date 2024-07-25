@@ -1,0 +1,1 @@
+In the context of angular , the app-root refers to the top level component of the application, which is angular uses to initialise the application. It act as the entry point of the application.

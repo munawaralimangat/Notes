@@ -1,0 +1,5 @@
+The ngOnChange hook get executed at the start, when a new component us created and it's input bound properties are updated.
+
+The ngOnChanges hook also get executes everytime the input bound properties of the component changes.
+
+The ngOnChanges hook is not raised if the change detection cycle does not find any changesin the input propertie's value.

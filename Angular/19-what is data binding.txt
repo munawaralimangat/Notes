@@ -1,0 +1,40 @@
+Data binding in angular allow us to communicate with component class and it's corresponding view template, and vice versa
+
+we can devide dat abinding in to two 
+
+One way data binding and Two way data binding
+
+One way data binding :
+  
+  One way data binding is when , data can be  access from component in to its corresponding view template or from the view templat to its component
+
+This can be devided in to two 
+ 
+ 1 Component to view
+ 2 View to component
+==================================
+
+Component to view:
+
+One way data binding (data flow from component to view)
+
+string interpolation {{data}}
+property binding [property] = data
+
+--------------------------
+
+View to component:
+Data flow from view template to component
+
+event binding (data) = 'expression
+
+====================================
+
+Two way data binding :
+  
+  Two way data binding binds data from component class to view template and view template to componenr class. It is a combination of property binding and event binding
+
+Data flows from component to its view template and from view template to component at the same time
+
+[ngModel]
+

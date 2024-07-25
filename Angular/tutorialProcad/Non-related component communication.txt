@@ -1,0 +1,8 @@
+using input property binding and output event binding
+
+@input is used to pass data from a parent component t child component
+
+@output is used for pass data from child component to parent component
+
+These binding are fundamental for component communication in Angular , enabling to build interactive and dynamic applications. 
+

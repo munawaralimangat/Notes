@@ -1,0 +1,3 @@
+Environment files are configuration files used to manage environment-specific settings for a software application
+
+These files store key-value pairs that define various parameters such as API endpoints, database connections and feature flags that are specific to different stages of deployment like developing, testing and production

@@ -1,0 +1,7 @@
+What is FormArray :
+
+FormArray is a way to manage a collection of form controls. Its like a list of form controls.
+
+It helps to manage dynamic forms where you might have a variable number of form fields.
+
+create an instance of FormArray and add FormControl instance to it

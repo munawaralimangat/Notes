@@ -1,0 +1,3 @@
+Type inference is a feature in typescript that allow the compiler to automatically determine the types of a variable, functions and expressions.
+
+- It making the code more readable, maintainable and lesser

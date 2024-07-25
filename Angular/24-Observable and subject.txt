@@ -1,0 +1,11 @@
+Observable :
+
+Observable is a special type of object that provided by rxjs (Reactive Extentions Js) library , It can produce and emit multiple values, by changing the data. Observable are unicast and also it will not work if there is no consumer( subscribe function )
+
+Observable are unicast because, each subscriber receives its own independent execution of the data stream, each subscriber gets its own copy of the data stream.
+
+Subject :
+
+A subject is a special type of observable provide by rxjs library, that can both emit and receive values. It acts as a data broadcaster, it allows multiple subscribers to receive the same data . Unlike regular Observable which only produces values, a subject can directly emit values and is useful for scenarios where you need to share data among multiple parts of an application.
+
+multicast basically meaning that one Observable execution is shared among multiple subscribers.

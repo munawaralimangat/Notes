@@ -1,0 +1,14 @@
+What is constructor functions? 
+
+Constructor functions are the functions which act as a pattern or template for creating objects
+
+with constructor function we can instanciate several objects
+
+to define a constructor function , a normal function can be used or a function expression
+
+* Define a function with capitalized name to indicate its a constructor function
+
+let Person = function (){}
+
+* Inside a constructor a function 'this' keyword referse to the new object is being created
+

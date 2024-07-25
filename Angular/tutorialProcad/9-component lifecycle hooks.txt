@@ -1,0 +1,7 @@
+The Angular life cycle hooks are the methods that angular invokes on a directive or a component, as it creates, changes and destroy them.
+
+Change Detection Cycle:
+
+Change detection in angular is a mechanism by which, Angular keeps the view template in sync with the component class.
+
+

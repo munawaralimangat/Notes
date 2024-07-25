@@ -1,0 +1,4 @@
+What is lazy loading?
+
+Lazy loading is an optimizing technique in angular that improves application performance by loading modules only when needed to be loaded. Instead of loading complete application at startup , lazy laoding splits the application in to smaller modules.
+

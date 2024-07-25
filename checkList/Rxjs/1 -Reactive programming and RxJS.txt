@@ -1,0 +1,19 @@
+Reactive programming is just a different way of building software applications
+
+Essentially , our software is built to react to changes that happen (like click events , data being fetched..etc) instead of the typical way of writing software where we explicitly write code to handle those changes.
+
+Reactive programming is an asynchronous programming paradigm concerned with data streams and the propogation of change.
+
+RxJS reactive Extentions of JavaScript) is a library for reactive programming using observable that make s it easier to compose asynchronous or callback-based code.
+
+RxJS  is a library which helps us in making async calls and implement callback mechanisms.
+
+RxJS consists of three things:
+1 Observable 
+2 Satelite Data Types - Observers, Schedulers , Subjects
+3 Operators - these are array methods
+ - map
+ -filter
+ -reduce
+
+              - - - -------------------------------- - - -
