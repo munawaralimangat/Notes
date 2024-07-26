@@ -1,0 +1,45 @@
+BehaviorSubject, ReplaySubject and AsyncSubject :
+
+These three are specialized types of subjects each with unique charecteristrics and use cases. 
+
+BehaviorSubject Charecteristics :
+
+Initial Value : Requires an initial value and emits its current value (last emited item) to new subscribers immediately upon subscription.
+
+Stateful : Keeps track of the current value.
+
+Emit All: Emits all subsequent values to all subscribers.
+
+Use cases :
+
+State Management : Commonly used in scenarios where you need to maintain and share a state across multiple components.
+
+Form Controls: Suitable for reactive forms where the form's current value needs to be tracked and shared. 
+
+ReplaySubject:
+
+Charecteristics: 
+
+Replay values: Emits a specified number of last emitted values (buffer size) or all values to new subscribers.
+
+Buffer Size : Configurable to store a certain number of past values.
+
+Use Cases :
+
+Caching : Useful when you need to cache a sequence of events and replay them to new subscribers
+
+Historical Data: When new subscribers need to access previously emitted values.
+
+AsyncSubject :
+
+Charecteristics:
+
+Completion: Only emits the last value of subscribers upon completion.
+
+Single Value:Subscribers receive only the final value once the subject completes.
+
+Use Cases:
+
+Final Value: Suitable for scenarios where you are only interested in the final of an operation.
+
+One-Time Events: Ideal for events that occur only once and need to captured at completion.
