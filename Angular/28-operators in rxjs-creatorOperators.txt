@@ -1,0 +1,29 @@
+Operators in Rxjs
+
+of() :
+
+This creates an observable that emits the aruguments provided to it.
+
+Creation Operators: 
+
+from() :
+
+This converst the various types of data (array, promises, or iterable objects) in to an observable.
+
+interval() :
+
+creates an observable that emit sequential numbers every specified interval of time.
+
+timer()
+
+Creates an observable that emits a single value after a specified delay , then continuous to emit values periodically.
+
+fromEvent()
+
+Creates an observable from an event of given DOM element.
+
+ajax()
+
+creates an observable from an AJAX request
+
+
