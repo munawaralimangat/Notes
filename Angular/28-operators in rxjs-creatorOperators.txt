@@ -26,4 +26,6 @@ ajax()
 
 creates an observable from an AJAX request
 
+defer()
 
+Creates an observable that , upon subscription , invokes a function to create a new observable , allowing dynamic creation of observables

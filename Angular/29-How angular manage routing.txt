@@ -1,0 +1,21 @@
+The Angular Router is a key part of Angular applications, managing navigation and rendering views based on the URL. It enables you to create single-page application (SPAs) with dynamic navigation.
+
+RouterModule: Configures routing in your application.
+
+Routes: Defines URL paths and associated components.
+
+RouterOutlet : Placeholder for routed components.
+
+Promgrammatic Navigation : Navigate using the router service
+
+Route Parameters: Pass parameters to route and access them in components.
+
+Router Guards: control acess to routes.
+
+Lazy Loading : Load modules on demand to optimize performance
+
+
+
+
+
+
