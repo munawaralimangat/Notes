@@ -1,0 +1,15 @@
+Higherarchical Dependancy Injecttion :
+
+When we provide a dependancy on a component, the same instance of that dependancy is injected in component class and its child components and their child component s. This is calleld as higherarchical Injection 
+
+Dependancy Override :
+
+When we provide a dependancy on a component and we also provide a dependancy on its child component, child component dependancy instance will override its parent component dependancy instance.
+
+Dependancy Injection on Root Component:
+
+When we provide a dependency on root component , same instance of that dependency is injected to all components , directives and services.
+
+Module Injector 
+
+We can also inject a service from Module class. In that same instance of the dependency will be available throughout the Angular application. In this way we implememt singleton pattern where a single instance is shared throughout the application.

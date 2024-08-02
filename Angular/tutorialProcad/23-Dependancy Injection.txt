@@ -1,0 +1,12 @@
+Dependancy injection is a design pattern used in software development to manage and inject dependancies into objects or components. Instead o fa component creating its own dependancies, DI provides them from an external source.
+
+Angular uses Dependancy Injection to provide services to components.
+
+
+@Injectable({ providedIn: 'root'}) tells Angular to provide this service globally, making it available throughout the application.
+
+In the component constructor , we declare a dependency on the service using private  for example  private sevicename: ServiceName 
+
+Angular automatically provides an instance of the service in the component
+
+Dependancy injection is a technique (design pattern) using which a class receives its dependancies from external source rather than creating itself
