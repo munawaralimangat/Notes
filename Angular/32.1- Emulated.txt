@@ -1,0 +1,5 @@
+Emulated(default)
+
+Angular emulates the behavior of the shadow DOM by adding unique attributes to the component's HTML elements and corresponding styles. This scoping of styles is done during the compilation phase.
+
+Behavior: Styles are scoped to the component but do not use the native Shadow DOM. Other component's style are not affected and global styles do not affect this component.

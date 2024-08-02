@@ -1,0 +1,5 @@
+Creating Custom Class Directive :
+
+ngClass directive in Angular is used to conditionally apply CSS classes to an element based on the component's state or properties.This directive is very versatile and can be used in multiple ways with strings, arrays or objects.
+
+Creating a custom class directive in Angular allows you to dynamically add, remove , or manipulate CSS classes on an HTML element. This can be useful for implementing custom styling behaviors or adding classes based on specific conditions. Here;s a step-by-step guide to creating a custom class directive.

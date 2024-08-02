@@ -1,0 +1,7 @@
+Shadow DOM
+
+Angular uses the native Shadow DOM technology available in modern browsers. The component's styles are encapsulated within the Shadow DOM.
+
+Styles are completely encapsulated within the showdow DOM, ensuring that styles from outside do not affect the component and vice versa.
+
+

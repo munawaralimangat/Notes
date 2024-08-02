@@ -1,0 +1,6 @@
+None :
+
+Angular does not provide any style encapsulation. Styles defined in the component are applied globally.
+
+Styles defined in the component can affect other components, and global styles can affect this component.
+

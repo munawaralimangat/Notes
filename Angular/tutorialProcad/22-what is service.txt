@@ -1,0 +1,15 @@
+What is Service in Angular
+
+A service in Angular is a class that provides specific functionality or business logic to various parts of the application. Services are typically used to handle data fetching, business logic , and other operations that are shared across multiple components.
+
+Resuability :
+
+Seperation of Concers :
+
+Dependancy Injection :
+
+A service is a typescript class that can reused in multiple components across the angular application
+
+
+
+

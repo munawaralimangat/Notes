@@ -1,0 +1,4 @@
+Structural directives in Angular are powerful feature used to modify the structure of a DOM. They allow you to add, remove or conditionally display elements based on certain conditions.
+
+These directives are typically used for scenarios such as conditional rendering, repeating elements, or modifying the layout of components.
+

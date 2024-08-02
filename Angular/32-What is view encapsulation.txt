@@ -1,0 +1,8 @@
+What is view encapsulation :
+
+view encapsulation in angular is a mechanism that determines how style defined in a component's CSS are applied to component's template. It ensures that the styles do not unintentionally affect other parts of the application and that global styles do not affect the component. Angular provides three strategies for view encapsulation.
+
+- Emulated(Default)
+- Shadow DOM(ShadowDom)
+- None
+
