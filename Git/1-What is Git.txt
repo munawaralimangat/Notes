@@ -1,0 +1,14 @@
+Git is a version control system. It helps you keep track of changes to your files and allows you to collaborate with others
+
+Basic Commands :
+
+git init - Initialte a new Git repository
+
+git clone <repoUrl> : Copy and existing repository from a server
+
+git status : Show the status of changes as untracked, modified, or staged
+
+git add <file> : Add a file to the staging area(preparing it for a commit)
+
+git commit -m "message" :  Commit the staged changes to the repository with  a message
+

@@ -15,3 +15,5 @@ it will create some bundles and inject in to the index.html file inside src fold
 
 - development mode
  It includes additional debugging features and does not apply production optimizations
+
+changed for git
