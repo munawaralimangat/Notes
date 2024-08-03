@@ -1,0 +1,25 @@
+Branching Strategies in Git
+
+Branches are independent lines of work, stemming from the original codebase. Developers create separate branches for independently working on features so that changes from other developers don't interfere with an individual's line of work. Developers can easily pull changes from different branches and also merge their code with the main branch. This allows easier collaboration for developers working on one codebase.
+
+Git branching strategies are essential for efficient code management and collaboration within development teams, In this comprehisive guide, we will delve in to the various Git branching strategies, their benefits, implementation steps , and best practices.
+
+Key terminologies :
+
+Git branch : A parallel version of the code within a Git repository, allowing for separate development and experimentation.
+
+Main Branch (formerly Master Branch): The primary branch of a Git repository where the production ready code resides.
+
+Feature Branch : A branch created to work on a specific feature or task isolated from the main branch.
+
+Merge: The process of combining changes from one branch into another.
+
+Pull request: A request made by a developer to merge their changes into another branch, often used for code review.
+
+CI/CD Pipeline : Continues integration and Continues Deployment pipeline, automating the process of building , testing and deploying code changes.
+
+What is a branching strategy ?
+
+A branching strategy is a strategy that software development teams adopt for writing, merging deploying code with the help of a version control system lik Git. It lays down a set of rules that aid the developers on how to go about the development
+
+4
