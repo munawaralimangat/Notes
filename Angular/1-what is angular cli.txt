@@ -2,6 +2,8 @@ Angular CLI (command Line Interface) is a tool for make simplify the development
 
 It provides verities of commands to streamline the development workflow.
 
--creating new projects
--adding components and services
--running tests and building the application for production
+- creating new projects
+- adding components and services
+- running tests and building the application for production
+
+This is angular cli
