@@ -1,0 +1,11 @@
+How to use Branches in Git :
+
+With branches, you can create a copy of a file you would like to work on without messing up the original copy. You can either merge those changes to the original copy or just let the branch remain independent.
+
+To create a new branch : git checkout -b branch-name ( create and switch to the branch)
+
+checkout tells Git it is supposed to switch to a new branch 
+
+-b tells Git to create a new branch.
+
+git checkout branch-name : This will switch to the branch 
