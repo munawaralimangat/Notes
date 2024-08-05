@@ -1,0 +1,28 @@
+The stages of files in Git
+
+1. Untracked
+2. Tracked
+3. Modified
+4. Staged
+5. committed
+
+
+1 Untracked State:
+
+A file is untracked state when it exists in your working directory but Git is not tracking it. This means git is not aware of this files yet.
+
+2 Tracked State :
+
+A file is in the tracked state once it has been added to the Git index( staged area) at least once. Tracked files can be in one of three states : Unmodified ,modified or staged
+
+3 Modified State :
+
+A tracked file is in the modified state when you make changes to it after it was last committed or staged.
+
+4 Staged State :
+
+A file is in the staged state when it has been marked to be included In the next commit. This is done by adding it to the staging area using 'git add'
+
+5 Committed State :
+
+A file is in the committed state when the changes in the staging area have been saved to the repository's history with a commit 

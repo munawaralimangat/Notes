@@ -1,5 +1,11 @@
 Git is a version control system. It helps you keep track of changes to your files and allows you to collaborate with others
 
+For example, you could be working on a website's landing page and discover thatyou do not like the navigation bar. But at the same time, you might not want to start altering its components because it might get worse.
+
+with git, we can create an identical copy of that file and play around with the navigation bar. Then you are satisfied with your changes, you can merge the compy to the original file.
+You are not limited to using Git just for source code files- you can also use it to keep track of text files or even images. This means that Git is not just for developers - anyone can find it helpful.
+
+
 Basic Commands :
 
 git init - Initialte a new Git repository

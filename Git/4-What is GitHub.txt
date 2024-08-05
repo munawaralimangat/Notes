@@ -1,0 +1,3 @@
+GitHub is an online hosting service for Git repositories. Imagine working on a project at home and while you are away, maybe at a friend's place, you suddenly rememember the solution to a code error that kept you restless for days.
+
+You cannot make these changes because your pc is not with you. But if you have your project hosted on GitHub, you can access and download that project with a command in whatever computer you have access to. Then you can make your changes and push the latest version back to GitHub.
