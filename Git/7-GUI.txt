@@ -1,0 +1,32 @@
+gitk and git gui are graphical interfaces(GUIs) that comes with Git and provide visual ways to interact with your Git repositories.
+
+gitk :-
+
+gitk is a graphical history viewer for Git repositories. It allows you to see the commit history, including branches, merges and changes. It provides a visual representation of your repository's history, making it easier to understand the flow of commits and the relationships between them.
+
+run gitk
+
+Features : 
+
+Commit History : View the complete commit history of your repository.
+
+Branches and Merges : Visualize branches and merges in your repository
+
+Diffs : See the differences introduced by each commit.
+
+Search : Search through commit messages, author names and more.
+
+git gui :-
+
+git gui is another graphical interface provided by Git, designed for committing changes, staging files , and managing your repository. It provides a more user-friendly way to handle common Git operations compared to the command line.
+
+Features :
+
+Staging Area : Stage changes by selecting files or individual hunks of code.
+
+commit changes: write commit messages and commit changes in the repository
+
+repository management: Perform various Git operations like branching , merging and more 
+
+Visual diff : See the difference between working directory , the index and the HEAD
+

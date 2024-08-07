@@ -1,0 +1,12 @@
+Component Interaction Using Service :
+
+Using a shared service with an EventEmitter is an effective way to facilitate communication between Angular components, including sibling components. Here's brief guide on how to archive this.
+
+
+1 create a shared service with an event emitter that emit the event on a method
+
+2 create first (sender ) component , This component will emit an event through the shared service.
+
+3 Create the second component
+This component will listen for the event and update its state accordingly.
+
