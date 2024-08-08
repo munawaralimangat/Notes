@@ -1,0 +1,5 @@
+RxJS map and filter operator :
+
+map operator is used to transform the items emitted by an observable. It applies a given function to each item and emits the resulting values as a new observable.
+
+filter operator is used to filter items emitted by an observable based on a predicate function. Only items that satisfy the predicate function are emitted by the resulting observable

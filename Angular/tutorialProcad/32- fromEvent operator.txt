@@ -1,0 +1,4 @@
+What is fromEvent ?
+
+fromEvent operator allow us to create an observable from DOM event, or event emitted by an event emitter(NodeJs). It allow us to handle and work with events in a reactive programming style.
+

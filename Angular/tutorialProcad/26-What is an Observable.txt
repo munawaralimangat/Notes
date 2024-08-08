@@ -1,0 +1,7 @@
+What is an Observable 
+
+We use observable to handle asynchronous data
+
+An Observable is a wrapper around asynchronous data. We use an observable to handle asynchronous data.
+
+An Observable is a function that converts  the ordinary fata stream into an observable one. You can think of Observable as a wrapper around the ordinary data stream.

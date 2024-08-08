@@ -1,0 +1,9 @@
+A subject is a special type of observable that allows values to be multicasted to many observers. Subjects are like event emitters
+A 'Subject' is an observable that can also act as an observer. This makes 'Subjects' a powerful tool for handling multicasting , event emitting , and state management in RxJs.
+
+Key charecteristics of 'Subject' :
+
+- Multicasting : A subject emits values to multiple subscribers.
+- Observer and Observable : A 'Subject can be both an observer (it can receive values) and an observable (it ca emit values)
+
+subject is more useful when cross component communication need

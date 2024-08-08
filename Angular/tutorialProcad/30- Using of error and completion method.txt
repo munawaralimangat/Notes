@@ -1,0 +1,11 @@
+Error and Completion methods in Observable 
+
+In Angular, observables are used extensively , especially when dealing with asynchronous operations like HTTP requests. Observables are part of the Reactive Extensions for JavaScript (RxJS) library, which is included with Angular. An observable can emit multiple values over time, and subscribers can react to these values.
+
+Next: Emitted values from Observable.
+Error: Any error that occurs during the observable's execution 
+
+Error: Any error that occurs during the observable's execution
+
+Complete: Notification that the observable has finished emitting values.
+

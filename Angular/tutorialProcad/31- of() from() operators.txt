@@ -1,0 +1,9 @@
+What are of() from() operators :
+
+The of() operator creates an observable that emits the arguments you provide and then completes. It can be used to emit a sequence of value.
+
+
+The from() operator creates an observable from various types of input, such as arrays, promises iterable objects, or other observables. 
+
+The from operator takes a single argument which can iterated over and convers it into an observable.
+

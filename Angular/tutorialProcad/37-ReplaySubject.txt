@@ -1,0 +1,13 @@
+Replay Subject :
+
+A ReplaySubject in RxJS is a type of Subject that records and replays a specific number of emitted values or values within a specific time window to new subscribers.
+
+ReplaySubject replays old values to new subscribers when they first subscribe.
+
+The ReplaySubject will store every value it emits in a buffer. It will emit them to the new subscribers in the order it received them. We can configure the buffer using the arguments bufferSize and windowTime
+
+bufferSize: No of items that ReplaySubject will keep in its buffer. It defaults to infinity.
+
+windowTime: The amount of time to keep the value in the buffer. Defaults to infinity.
+
+

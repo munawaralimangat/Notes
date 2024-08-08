@@ -1,0 +1,20 @@
+Observable pattern  :
+
+Whenever an observable(event emitter) emits an event the observer(event listener, subscriber) will wait that event to happen , and once that event happen the observer can handle the event using event handlers(event handler)
+
+
+an Observable will emit 
+
+-Next
+-Error
+-Completion
+
+Observer
+
+-subscribe()
+
+Handler
+
+Next()
+Error()
+Completion()
