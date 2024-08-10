@@ -1,0 +1,25 @@
+Navigation between Routes Programmically
+
+navigate()
+
+Using navigate() method , we can navigate from one route to another route to another programically. The navigate method takes an array as an argument and in that array we can specify route segments.
+
+lets say , we want to navigate the user to following route:
+
+URL: localhost:4200/books/author/101
+
+we can pass each segment of above URL as an element of the passed array to navigate method.
+
+this.router.navigate(['books','author',101])
+
+navigteByUrl()
+
+Using navigateByUrl() method , we can navigate from one route to another programmatically. The navigateByUrl method takes a string value as an argument and that string  value as an argument and that string value should contain all the route segments.
+
+lets say, we want to navigate the user following route:
+
+URL: localhost:4200/books/author/101
+
+this.router.navigateByUrl('books/author/101')
+
+

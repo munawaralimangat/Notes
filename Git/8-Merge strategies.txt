@@ -1,0 +1,10 @@
+A merge in Git is the process of integrating changes from one branch into another. This is a common practice in collaborative projects where multiple developers work on different features or bug fixes in separate branches. Merging helps combine their efforts into the main branch, usually known as main or master.
+
+Common Merge Strategies :
+
+Git provides several merge strategies, each suited for different scenarios. The choice of strategy depends on the complexity of changes and the desired outcome. Here are the most commonly used merge strategies.
+
+1 Fast Forward Merge :
+
+It occurs when the target branch has not diverged from the source branch
+

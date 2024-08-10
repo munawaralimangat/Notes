@@ -1,0 +1,6 @@
+RouterLink Directive :
+
+The RouterLInk is a directive that binds the HTML element to Route. When the HTML element on which we have used the RouterLink is called, it will result in navigation to the Route.
+
+Note : RouterLink directive is an attribute directive and we can also pass additional parameters to it .
+

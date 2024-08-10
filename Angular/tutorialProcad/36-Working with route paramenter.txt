@@ -1,0 +1,16 @@
+Working with route parameter :
+
+Route Parameter 
+
+The route parameter are dynamic part of the route whose value can change.These parameters provides a way to pass extra information to given route.
+
+localhost:4200/books/author/stefen-king
+
+in order to tell angular this is a route parameter we can ise  : before parameter
+
+localhost:4200/books/author/:authorName
+
+like this.
+
+
+

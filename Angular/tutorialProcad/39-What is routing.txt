@@ -1,0 +1,14 @@
+What is Routing :
+
+Routing allows us to navigate from one part of our application to another part. In angular, using routing , we can move from view of one component to view of another component.
+
+To implement routing in Angular, we use a built in @angular/router module.
+
+How to define Routes :
+
+Create a new route using Routes array and define some route objects inside that array
+-----------------
+Register the route using RouterModule.forroot(routeName)
+------------------
+Use <router-outlet></router-outlet> where you want to render the view of specified route component.
+------------------

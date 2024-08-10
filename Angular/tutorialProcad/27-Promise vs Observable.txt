@@ -5,3 +5,5 @@ A promise cannot handle stream of asynchronous data. It always return a single v
 A promise will certainly return a data even if no code is using that data. Whereas an observable will return a data only if someome is giving to use that data.
 
 Promise is native to javascript. Whereas observable is not native to javascript and it is provided by 'RxJS' library
+
+

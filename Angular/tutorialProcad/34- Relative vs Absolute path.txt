@@ -1,0 +1,34 @@
+Relative vs Absolute path :
+
+
+Absolute path 
+
+An absolute path in Angular routing starts from the root of the application. It is defined without any reference to the current route, so it always points to the same location within the application , regardless of where the navigation is triggered.
+
+when we use a slash ('/') before the router link path , in that case it uses absolute path and the path is directly append to root url.
+
+<a routerLink='/about'>About</>
+
+URL :localhost:4200/about
+
+Relative path 
+
+A relative path in Angular routing is defined relative to the current route. This means that the final navigation path depends on the route from which the navigation is initiated.
+
+when we do not use a slash ('/') before the router link path , in that case it uses relative path and the path is append to the currently active route.
+
+For example , lets say the currently active route is About. and a link is defined in about page to go to home page as shown below. If the route is clicked the the path will be append to the currently active route.
+
+<a routerLink='home'> Go to Home </a>
+
+URL : localhost:4200/about/home
+
+when we use dot and a slash (. /) before the routerLink path , in that case it uses relative path and the path is append to the currently active route
+
+current active router link path :
+ 
+localhost:4200/books/author 
+
+<a routerLink ='../stephenking'> Stephen King </a>
+
+URL : localhost:4200/books/author/stephen-king
