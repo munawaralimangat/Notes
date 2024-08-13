@@ -1,0 +1,4 @@
+The paramMap observable 
+
+By subscribing to the paramMap observable ( or to params observable), you will get a notification when the value changes. Hence , you can retrieve the latest value of the parameter and update the component accordingly.
+

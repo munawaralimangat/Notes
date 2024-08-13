@@ -1,0 +1,6 @@
+Snapshot property :
+
+The snapshot property contains the current value of the route. If the value of the route parameter changes after we have retrieved the value of route , that change will not get captured.
+
+this.activeRoute.snapshot.paramMap,get('id')
+
