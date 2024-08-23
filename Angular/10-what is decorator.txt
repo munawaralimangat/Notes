@@ -1,4 +1,6 @@
 Decorator is a feature of typescript that allow you to modify the behaviour of a class or its members. They are prefixed with the @ symbol
 
+A decorator is a function that takes some configuration parameters and returns another function. This retruned function is then applied to the class, method, property, or parameter to which the decorator is attached. Decorators allow you to modify or extend the behavior of the decorated element.
+
 
 
